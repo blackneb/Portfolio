@@ -1,0 +1,132 @@
+.top-resume-main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 10% 200px 10%;
+    padding-top: 15px;
+    padding-right: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    height: 520px;
+}
+.resume-about{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.lists{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.defineicons{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border:1px rgb(31, 28, 42) solid;
+    background-color: rgb(31, 28, 42) ;
+    padding: 5px;
+    padding-top: 17px;
+    border-radius: 5px;
+}
+.resumeicons{
+    width: 25px;
+    margin-bottom: 10px;
+    border: 1px rgb(31, 28, 42) solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+.resumeul{
+    list-style: none;
+    flex-direction: column;
+    text-align: Left;
+    margin: 10px;
+    margin-left: -5px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+.prolinkage{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(31, 28, 42);
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.resumeli{
+    margin-bottom: 5px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0px rgb(31, 28, 42) solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 200px;
+    padding-top: 12px;
+}
+.eduresumeli{
+    margin-bottom: 5px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0px rgb(31, 28, 42) solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 200px;
+    padding-top: 12px;
+    background-color: rgb(31, 28, 42);
+    color: white;
+}
+.resumeli:hover{
+    background-color: rgb(31, 28, 42);
+    color: white;
+}
+.vl{
+    border-left: 5px rgb(31, 28, 42) solid;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.h1{
+    display: none;
+}
+
+.educationli{
+    margin-bottom: 15px;
+}
+.educationul{
+    text-align: left; 
+    list-style: upper-roman; 
+}
+
+@media screen and (max-width:780px) {
+    .resume-about{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .lists{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-left: 0px;
+    }
+    .vl{
+        display: none;
+    }
+    .hl{
+        border-bottom: 5px rgb(31, 28, 42) solid;
+        width: 250px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+}

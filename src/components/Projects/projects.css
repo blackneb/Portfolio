@@ -1,0 +1,77 @@
+.main-project{
+    margin: 100px 10% 200px 10%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    text-align: center;
+}
+.proname{
+    padding-top: 50px;
+}
+.slidercompmobile{
+    display: none;
+}
+.detailsize{
+    height: 80px;
+}
+.main-project-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.prosli{
+    margin-bottom: 15px;
+}
+.proslic{
+    margin-bottom: 15px;
+    border: 1px rgb(31, 28, 42) solid;
+    background-color: rgb(31, 28, 42);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    height: 25px;
+}
+.prosul{
+    list-style: none;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 150px;
+}
+
+@media screen and (max-width:780px){
+    .slidercomp{
+        display: none;
+    }
+    .slidercompmobile{
+        display: block;
+    }
+    .slider{
+        text-align: center;
+        width: 220px;
+        height: 400px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+}

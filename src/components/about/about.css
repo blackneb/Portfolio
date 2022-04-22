@@ -1,0 +1,100 @@
+.top-about-main{
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin: 50px 30% 5px 30%;
+    padding-top: 15px;
+}
+.main-about{
+    text-align: center;
+    justify-content: center;
+    height: 660px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.about-content{
+    border-radius: 15px;
+    margin: 5px;
+    height: 650px;
+    text-align: center;
+    line-height: 1.5;
+}
+.contentlists{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.viewresume{
+    color: black;
+    margin-bottom: 25px;
+    border: 1px black solid;
+}
+.homegoabresume{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(31, 28, 42);
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+}
+.resabdiv{
+    margin: 20px;
+}
+.contentparagraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 5px;
+}
+@media screen and (max-width:780px){
+    .main-about{
+        border: none;
+        text-align: center;
+        justify-content: center;
+        height: 660px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .top-about-main{
+        text-align: center;
+        justify-content: center;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        margin: 50px 10% 5px 10%;
+    }
+    .resabdiv{
+        margin: 0px;
+        display: flex;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .homegoabresume{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(31, 28, 42);
+        border: 1px white solid;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .contentlists{
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}
