@@ -77,7 +77,7 @@ const Projects = () => {
     const projectthree=[
       {
             project_name:"Food Order",
-            project_info:"Dynamic website for food ordering system built using PHP , HTML , CSS and Javascript",
+            project_info:"Dynamic website for food ordering system built using PHP, HTML, CSS and Javascript",
             project_link:"",
             images:[
               {

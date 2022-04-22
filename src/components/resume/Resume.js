@@ -46,7 +46,7 @@ const Projects = () =>{
         <div>
             <ul className='educationul'>
                 <li className='educationli'>Cinema Schedule with Java Swing</li>
-                <li className='educationli'>Roll Racer Game with Unity</li>
+                <li className='educationli'>Rush ball Game with Unity</li>
                 <li className='educationli'>Food order(Web Based)</li>
                 <li className='educationli'>Event and Tour Organizing Platform(On going Project )</li>
             </ul>
