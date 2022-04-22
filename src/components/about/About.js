@@ -9,7 +9,7 @@ const About = () => {
             <div className='about-content'>
               <p className='contentparagraph'>
                 Hi i am Anteneh Solomon and i am learning computer science and enginnering 
-                at adama science and technology university. Currently i am working on Front
+                at adama science and technology university.Currently i am working on Front
                 end enginnering and game designing. I would love to create beautiful and
                 performant products with delightful user experience.
               </p>
