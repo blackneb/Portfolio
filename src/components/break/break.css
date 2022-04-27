@@ -1,0 +1,29 @@
+.mainbreak{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.firstmain{
+    border: 1px rgb(31, 28, 42) solid;
+    background-color: rgb(31, 28, 42);
+    width: 40%;
+    height: 3px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 10%;}
+.secondmain{
+    border: 2px red solid;
+    background-color: red;
+    width: 20%;
+    height: 12px;
+    border-radius: 15px;
+}
+.thirdmain{
+    border: 2px rgb(31, 28, 42) solid;
+    background-color: rgb(31, 28, 42);
+    width: 40%;
+    height: 3px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-right: 10%;
+}
