@@ -2,8 +2,9 @@
     text-align: center;
     justify-content: center;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    margin: 50px 30% 5px 30%;
+    margin: 0px 30% 0px 30%;
     padding-top: 15px;
+    animation: fading 4s ease-in;
 }
 .main-about{
     text-align: center;

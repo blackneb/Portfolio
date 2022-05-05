@@ -4,6 +4,7 @@
     color: white;
     padding-bottom: 30px;
     text-align: center;
+    animation: fading 2s ease-in-out;
 }
 .mobile-menu-icon{
     display: none;
@@ -59,6 +60,16 @@ a{
    
 }
 
+@keyframes fading {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
 .profilepic{
     display: flex;
     border: 1px white solid;
@@ -69,6 +80,8 @@ a{
     height: 360px;
     width: 360px;
     margin: 0 0px 0 100px;
+    animation: fading 6s ease-in-out;
+    
 }
 .profilepp{
     width: 350px;
