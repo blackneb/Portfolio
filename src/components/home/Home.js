@@ -12,7 +12,7 @@ const Home = () => {
     <div className='topcontainer'>
         <div className='maindiv'>
           <div className='logo'>
-              <h1>Portfolio</h1>
+              <h1>Blackneb</h1>
           </div>
           <div className='links'>
               <ul className={isMobile? "nav-links-mobile" : "homeul"} onClick={()=>setIsMobile(false)}>
